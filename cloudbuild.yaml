@@ -58,13 +58,11 @@ steps:
     args:
       - build
       - -f
-      - Dockerfile
+      - Dockerfilegi
       - --tag
       - us-docker.pkg.dev/streamline-resources/streamline-private-repo/targets-minimal-original:latest
       - --tag
       - us-docker.pkg.dev/streamline-resources/streamline-private-repo/targets-minimal-original:$BUILD_ID
-      - --cache-from
-      - us-docker.pkg.dev/streamline-resources/streamline-private-repo/targets-minimal-original:latest
       - '.'
     id: building image
   - name: gcr.io/cloud-builders/docker
