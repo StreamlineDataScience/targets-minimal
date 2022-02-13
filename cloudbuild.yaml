@@ -58,7 +58,7 @@ steps:
     args:
       - build
       - -f
-      - Dockerfilegi
+      - Dockerfile
       - --tag
       - us-docker.pkg.dev/streamline-resources/streamline-private-repo/targets-minimal-original:latest
       - --tag
