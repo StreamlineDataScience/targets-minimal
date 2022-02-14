@@ -3,7 +3,7 @@ steps:
     args:
       - bash
       - -c
-      - ls -R /workspace/ && [ -d "/workspace/r" ] && cd /workspace/r && mv * ../
+      - ls -R /workspace/; [ -d "/workspace/r" ] && cd /workspace/r && mv * ../;
         && ls -R /workspace/
     id: move source files
   - name: gcr.io/cloud-builders/gcloud
