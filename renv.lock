@@ -3,6 +3,10 @@
     "Version": "4.1.2",
     "Repositories": [
       {
+        "Name": "RSPM",
+        "URL": "https://packagemanager.rstudio.com/cran/latest"
+      },
+      {
         "Name": "CRAN",
         "URL": "https://cloud.r-project.org"
       }
@@ -1766,8 +1770,8 @@
       "Remotes": "git::git@github.com:StreamlineDataScience/gcloud,\n        git::git@github.com:StreamlineDataScience/metagce,\n        muschellij2/googleCloudRunner, muschellij2/containerit,\n        r-lib/pak, r-lib/sessioninfo",
       "RemoteType": "xgit",
       "RemoteUrl": "git@github.com:StreamlineDataScience/trailrun",
-      "RemoteSha": "8e52bb85dc46a2f6f0a354039cc9832086458aef",
-      "Hash": "1ccbb56bc1574c60ae45664a65d855e0",
+      "RemoteSha": "df77c62c33d9a858f36eed9be72b5f2eb7a1f260",
+      "Hash": "148eee32f0d493e08797e6edacc678e8",
       "Requirements": [
         "assertthat",
         "bigrquery",
