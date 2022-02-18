@@ -290,10 +290,15 @@
     "containerit": {
       "Package": "containerit",
       "Version": "0.6.0.9004",
-      "Source": "Repository",
-      "Repository": null,
+      "Source": "GitHub",
       "Remotes": "github::r-hub/sysreqs",
-      "Hash": "68711f1a92ad60a28be4102be4040579",
+      "RemoteType": "github",
+      "RemoteHost": "api.github.com",
+      "RemoteRepo": "containerit",
+      "RemoteUsername": "muschellij2",
+      "RemoteRef": "HEAD",
+      "RemoteSha": "04731e9b8b0bdc6c3ef6eda66ff539b081bf35c2",
+      "Hash": "0e058223b09a166f8afec7e3b7180972",
       "Requirements": [
         "BiocManager",
         "automagic",
@@ -467,16 +472,10 @@
     },
     "evaluate": {
       "Package": "evaluate",
-      "Version": "0.14",
-      "Source": "CRAN",
+      "Version": "0.15",
+      "Source": "Repository",
       "Repository": "CRAN",
-      "RemoteType": "standard",
-      "RemotePkgRef": "evaluate",
-      "RemoteRef": "evaluate",
-      "RemoteRepos": "https://cloud.r-project.org",
-      "RemotePkgPlatform": "source",
-      "RemoteSha": "0.14",
-      "Hash": "ec8ca05cffcc70569eaaad8469d2a3a7",
+      "Hash": "699a7a93d08c962d9f8950b2d7a227f1",
       "Requirements": []
     },
     "fansi": {
@@ -1984,10 +1983,10 @@
     },
     "yaml": {
       "Package": "yaml",
-      "Version": "2.2.2",
+      "Version": "2.3.4",
       "Source": "Repository",
       "Repository": "CRAN",
-      "Hash": "4597f73aad7d32c2913ec33a345f900b",
+      "Hash": "84c6e30ea1adddaebd4b33d6c5cb5e65",
       "Requirements": []
     },
     "zip": {
