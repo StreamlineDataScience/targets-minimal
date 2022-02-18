@@ -684,9 +684,14 @@
     "googleCloudRunner": {
       "Package": "googleCloudRunner",
       "Version": "0.5.0",
-      "Source": "Repository",
-      "Repository": "CRAN",
-      "Hash": "9be3167be615aa38061c3fa081536c88",
+      "Source": "GitHub",
+      "RemoteType": "github",
+      "RemoteHost": "api.github.com",
+      "RemoteRepo": "googleCloudRunner",
+      "RemoteUsername": "muschellij2",
+      "RemoteRef": "HEAD",
+      "RemoteSha": "bbb7cd60114354c9970d64a818740d497fc77904",
+      "Hash": "b053d6f686ea533f3a3c3b8d605c544a",
       "Requirements": [
         "assertthat",
         "cli",
@@ -1317,10 +1322,10 @@
     },
     "renv": {
       "Package": "renv",
-      "Version": "0.15.1",
+      "Version": "0.15.2",
       "Source": "Repository",
       "Repository": "CRAN",
-      "Hash": "c38694b67e7f7091f7d073b3766258cc",
+      "Hash": "206c4ef8b7ad6fb1060d69aa7b9dfe69",
       "Requirements": []
     },
     "rjson": {
@@ -1757,10 +1762,12 @@
     "trailrun": {
       "Package": "trailrun",
       "Version": "0.1.0",
-      "Source": "Repository",
-      "Repository": null,
+      "Source": "Git",
       "Remotes": "git::git@github.com:StreamlineDataScience/gcloud,\n        git::git@github.com:StreamlineDataScience/metagce,\n        muschellij2/googleCloudRunner, muschellij2/containerit,\n        r-lib/pak, r-lib/sessioninfo",
-      "Hash": "21844df178156ff474c5e85fbdf7a0a1",
+      "RemoteType": "xgit",
+      "RemoteUrl": "git@github.com:StreamlineDataScience/trailrun",
+      "RemoteSha": "8e52bb85dc46a2f6f0a354039cc9832086458aef",
+      "Hash": "1ccbb56bc1574c60ae45664a65d855e0",
       "Requirements": [
         "assertthat",
         "bigrquery",
