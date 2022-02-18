@@ -40,8 +40,9 @@ steps:
       - /root/.ssh:/root/.ssh
       - --workdir=/workspace
       - --entrypoint
-      - R -f
+      - R
       - us-docker.pkg.dev/streamline-resources/streamline-private-repo/targets-minimal-original
+      - -f
       - /workspace/make.R
     id: Running R Script
     volumes:
